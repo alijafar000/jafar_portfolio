@@ -540,7 +540,7 @@
             color: rgb(170, 107, 228);
         }
 
-        /* Responsive Design */
+    
         @media screen and (max-width: 1200px) {
             .firstSection {
                 flex-direction: column-reverse;
@@ -949,7 +949,7 @@
             <div class="project-container">
                 <div class="project-card">
                     <div class="project-img">
-                        <a href="https://jafarali900.github.io/restaurant-github.io/" class="btn">Live Preview</a>
+                        <a href="https://jafarali900.github.io/restaurant-github.io/" class="btn">View Project</a>
                     </div>
                     <div class="project-content">
                         <h3>Simple Restaurent Page</h3>
@@ -958,7 +958,7 @@
                 </div>
                 <div class="project-card">
                     <div class="project-img">
-                        <a href="https://jafarali-ems.netlify.app/">Live Preview</a>
+                        <a href="https://jafarali-ems.netlify.app/">View Project</a>
                     </div>
                     <div class="project-content">
                         <h3>Employee Management System</h3>
@@ -967,7 +967,7 @@
                 </div>
                 <div class="project-card">
                     <div class="project-img">
-                        <a href="https://alijafar000.github.io/jafar_portfolio/" target="_blank">Live Preview</a>
+                        <a href="https://alijafar000.github.io/jafar_portfolio/" target="_blank">View Project</a>
                     </div>
                     <div class="project-content">
                         <h3>Portfolio Website</h3>
@@ -976,7 +976,7 @@
                 </div>
                 <div class="project-card">
                     <div class="project-img">
-                        <a href="https://jafar-blog.netlify.app/" target="_blank">Live Preview</a>
+                        <a href="https://jafar-blog.netlify.app/" target="_blank">View Project</a>
                     </div>
                     <div class="project-content">
                         <h3>Blog App</h3>
@@ -985,7 +985,7 @@
                 </div>
                 <div class="project-card">
                     <div class="project-img">
-                        <a href="https://jafar-gemini-clone.netlify.app/" target="_blank">Live Preview</a>
+                        <a href="https://jafar-gemini-clone.netlify.app/" target="_blank">View Project</a>
                     </div>
                     <div class="project-content">
                         <h3>Gemini Clone</h3>
@@ -1042,7 +1042,7 @@
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
-        // Smooth scrolling for navigation links
+        
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -1052,15 +1052,15 @@
 
                 const targetElement = document.querySelector(targetId);
                 if (targetElement) {
-                    // Close mobile menu if open
+                    
                     hamburger.classList.remove("active");
                     navMenu.classList.remove("active");
 
-                    // Calculate position to scroll to
+                    
                     const headerHeight = document.querySelector('nav').offsetHeight;
                     const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight;
 
-                    // Smooth scroll
+                    
                     window.scrollTo({
                         top: targetPosition,
                         behavior: 'smooth'
@@ -1069,7 +1069,7 @@
             });
         });
 
-        // Typed.js initialization
+        
         var typed = new Typed('#element', {
             strings: ['Database Administrator', 'Excel Expert', 'Video Editor', 'Web Developer'],
             typeSpeed: 40,
@@ -1077,7 +1077,7 @@
             loop: true
         });
 
-        // Mobile menu toggle
+        
         const hamburger = document.querySelector(".hamburger");
         const navMenu = document.querySelector("nav ul");
 
@@ -1085,7 +1085,7 @@
             hamburger.classList.toggle("active");
             navMenu.classList.toggle("active");
 
-            // Prevent body scrolling when menu is open
+            
             if (navMenu.classList.contains("active")) {
                 document.body.style.overflow = "hidden";
             } else {
@@ -1099,7 +1099,7 @@
             document.body.style.overflow = "auto";
         }));
 
-        // Close menu when clicking outside
+        
         document.addEventListener('click', (e) => {
             if (!e.target.closest('nav') && navMenu.classList.contains('active')) {
                 hamburger.classList.remove("active");
@@ -1112,6 +1112,7 @@
 
 
 </html>
+
 
 
 
