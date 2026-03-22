@@ -61,8 +61,8 @@ This is my personal portfolio website that serves as an online resume and showca
 
 ## 📁 Project Structure
 portfolio/
-├── index.html # Main HTML file
-├── contact.png.png # Contact form project image
+├── index.html
+├── contact.png.png
 ├── portfolio.png.png # Portfolio project image
 ├── jafar_resume.pdf # Downloadable resume
 ├── Screenshot 2025-12-24 185659.png # Restaurant project image
