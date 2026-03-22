@@ -58,12 +58,3 @@ This is my personal portfolio website that serves as an online resume and showca
 
 ### Form Handling
 - **Web3Forms** - Contact form backend service
-
-## 📁 Project Structure
-portfolio/
-├── index.html
-├── contact.png.png
-├── portfolio.png.png # Portfolio project image
-├── jafar_resume.pdf # Downloadable resume
-├── Screenshot 2025-12-24 185659.png # Restaurant project image
-└── README.md # Project documentation
