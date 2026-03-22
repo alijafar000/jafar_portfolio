@@ -4,7 +4,7 @@ A modern, responsive personal portfolio website showcasing my skills, education,
 
 ## 🚀 Live Demo
 
-[View Live Portfolio](#) *(Add your live demo link here)*
+[View Live Portfolio](https://alijafar000.github.io/jafar_portfolio/)
 
 ## 📋 Table of Contents
 
